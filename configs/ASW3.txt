@@ -1,0 +1,1 @@
+! paste 'show running-config' output for ASW3 here
