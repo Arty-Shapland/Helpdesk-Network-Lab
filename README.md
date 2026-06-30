@@ -4,8 +4,8 @@
 > helpdesk services running on top of it. Built while studying for the CCNA, aimed at
 > a first IT support / helpdesk role.
 
-<!-- ✍️ FILL IN: one or two sentences in your own words about why you built this -->
-_What this project is:_ __________________________________________________
+
+What this project is: A small project to demostrate my understanding of both side of IT, the software and the networking.
 
 ![Topology](diagrams/topology.png)
 <!-- ✍️ Replace with a screenshot of the rendered topology diagram -->
