@@ -7,7 +7,7 @@
 
 What this project is: A small project to demostrate my understanding of both side of IT, the software and the networking.
 
-![Topology](diagrams/topology.png)
+![Topology](diagrams/topology1.png)
 <!-- ✍️ Replace with a screenshot of the rendered topology diagram -->
 
 ---
