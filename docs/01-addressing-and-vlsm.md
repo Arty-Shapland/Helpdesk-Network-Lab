@@ -2,21 +2,17 @@
 
 **Base block:** `192.168.10.0/24`
 
-This is yours to design. Order the requirements largest-to-smallest, then carve from the
-top of the block. Nothing else in the repo assigns addresses — the configs use tokens that
-point back at the key you fill in below.
-
 ## Requirements
 
-| Segment | VLAN | Hosts needed | Your prefix | Your network | Your gateway | Broadcast |
+| Segment | VLAN | Hosts needed | Prefix | Network | Gateway | Broadcast |
 |---------|------|-------------|-------------|--------------|--------------|-----------|
-| Users | 30 | 50 | ____ | ____ | ____ | ____ |
-| IT / Helpdesk | 40 | 25 | ____ | ____ | ____ | ____ |
-| Servers | 20 | 12 | ____ | ____ | ____ | ____ |
-| Management | 10 | 10 | ____ | ____ | ____ | ____ |
-| Link R1–R2 | — | 2 | ____ | ____ | n/a | ____ |
-| Link R1–L3SW | — | 2 | ____ | ____ | n/a | ____ |
-| Link R2–L3SW | — | 2 | ____ | ____ | n/a | ____ |
+| Users | 30 | 50 | /26 | 192.168.10.0 | .62 | 192.168.10.63 |
+| IT / Helpdesk | 40 | 25 | /27 | 192.168.10.64 | .94 | 192.168.10.95 |
+| Servers | 20 | 12 | /28 | 192.168.10.96 | .110 | 192.168.10.111 |
+| Management | 10 | 10 | /28 | 192.168.10.112 | .126 | 192.168.10.127 |
+| Link R1–R2 | — | 2 | /30 | 192.168.10.128 | n/a | 192.168.10.131 |
+| Link R1–L3SW | — | 2 | /30 | 192.168.10.132 | n/a | 192.168.10.135 |
+| Link R2–L3SW | — | 2 | /30 | 192.168.10.136 | n/a | 192.168.10.139 |
 
 ## Fill-in key (used by every config block)
 
